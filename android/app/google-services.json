@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743982009293",
+    "project_id": "voiceup-44d0e",
+    "storage_bucket": "voiceup-44d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743982009293:android:9bdf5a0a41d72e3d28d284",
+        "android_client_info": {
+          "package_name": "com.example.voice_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUURq3mro0_lCxGg8XHOPB9cMLjaK3AWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
