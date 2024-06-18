@@ -107,3 +107,9 @@ add_custom_target(flutter_assemble DEPENDS
   ${CPP_WRAPPER_SOURCES_PLUGIN}
   ${CPP_WRAPPER_SOURCES_APP}
 )
+
+# get tf lite binaries
+install(
+FILES ${PROJECT_BUILD_DIR}/../blobs/ASL-model-tf.dll
+DESTINATION ${INSTALL_BUNDLE_DATA_DIR}/../blobs/
+)

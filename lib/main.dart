@@ -412,7 +412,7 @@ class _AlphabetPageState extends State<AlphabetPage> {
         'https://firebasestorage.googleapis.com/v0/b/voiceup-44d0e.appspot.com/o/ASL%2FVideos%20without%20bordee%2FK%20(1).mov?alt=media&token=80c1cf4c-ca9d-422d-a1b8-7f50b1e47851',
       );
     }
- if (widget.alphabet == 'L') {
+    if (widget.alphabet == 'L') {
       _controller = VideoPlayerController.network(
         'https://firebasestorage.googleapis.com/v0/b/voiceup-44d0e.appspot.com/o/ASL%2FVideos%20without%20bordee%2FL%20(1).mov?alt=media&token=aa80635c-82e7-46e3-a342-4a565b2ae4bb',
       );
@@ -717,6 +717,8 @@ class _CapturedImagePageState extends State<CapturedImagePage> {
   bool _isLoading = true;
   String _result = '';
 
+  get tflite => null;
+
   @override
   void initState() {
     super.initState();
@@ -898,7 +900,3 @@ class ResultPage extends StatelessWidget {
     );
   }
 }
-
-
-
-
